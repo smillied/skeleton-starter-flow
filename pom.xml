@@ -86,6 +86,11 @@
       <artifactId>vaadin</artifactId>
     </dependency>
 
+    <dependency>
+      <groupId>com.vaadin</groupId>
+      <artifactId>vaadin-spring</artifactId>
+    </dependency>    
+
     <!-- Added to provide logging output as Vaadin uses -->
     <!-- the unbound SLF4J no-operation (NOP) logger implementation -->
     <dependency>
