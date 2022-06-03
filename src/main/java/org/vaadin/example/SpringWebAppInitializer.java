@@ -15,6 +15,6 @@ public class SpringWebAppInitializer extends VaadinMVCWebAppInitializer {
   @Override
   protected Collection<Class<?>> getConfigurationClasses() {
 
-    return Arrays.asList(SpringWebAppConfiguration.class);
+    return Arrays.asList(SpringWebAppConfiguration.class, SecurityConfiguration.class);
   }
 }
