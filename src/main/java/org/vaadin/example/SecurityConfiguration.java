@@ -35,11 +35,11 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         // enable in memory based authentication with a user named "user" and "admin"
         .inMemoryAuthentication()
         .withUser("user")
-        .password("password")
+        .password("{noop}password")
         .roles("USER")
         .and()
         .withUser("admin")
-        .password("password")
+        .password("{noop}password")
         .roles("USER", "ADMIN");
   }
 
